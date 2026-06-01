@@ -2,6 +2,11 @@
 
 ---
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 <!-- Logo copied from https://github.com/inttter/md-badges -->
 ## Tech Stack
 
