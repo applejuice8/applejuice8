@@ -23,45 +23,168 @@ JSON              3 hrs 21 mins         ▒░░░░░░░░░░░░�
 
 ---
 
-<!-- Logo copied from https://github.com/inttter/md-badges -->
 ## Tech Stack
+
+> Languages, frameworks, and tools that I work with.
 
 ### Frontend
 
-[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
-[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
-[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff)](#)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/javascript.svg" width="48" height="48" alt="JavaScript" /></a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/typescript-icon.svg" width="48" height="48" alt="TypeScript" /></a>
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/react.svg" width="48" height="48" alt="React" /></a>
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/bootstrap.svg" width="48" height="48" alt="Bootstrap" /></a>
+      <br>Bootstrap
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/css.svg" width="48" height="48" alt="CSS" /></a>
+      <br>CSS
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/html-5.svg" width="48" height="48" alt="HTML" /></a>
+      <br>HTML
+    </td>
+  </tr>
+</table>
 
 ### Backend & Database
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)](#)
-[![Flask](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff)](#)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red)](#)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/python.svg" width="48" height="48" alt="Python" /></a>
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/fastapi-icon.svg" width="48" height="48" alt="FastAPI" /></a>
+      <br>FastAPI
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/django-icon.svg" width="48" height="48" alt="Django" /></a>
+      <br>Django
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/go.svg" width="48" height="48" alt="Go" /></a>
+      <br>Go
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/dark/flask.svg"><img src="./img/flask.svg" width="48" height="48" alt="Flask" /></picture></a>
+      <br>Flask
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/dark/sqlalchemy.svg"><img src="./img/sqlalchemy.svg" width="48" height="48" alt="SQLAlchemy" /></picture></a>
+      <br>SQLAlchemy
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/neon-icon.svg" width="48" height="48" alt="Neon" /></a>
+      <br>Neon
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/supabase-icon.svg" width="48" height="48" alt="Supabase" /></a>
+      <br>Supabase
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/redis.svg" width="48" height="48" alt="Redis" /></a>
+      <br>Redis
+    </td>
+  </tr>
+</table>
 
-### Machine Learning & Data Science
+### Machine Learning
 
-[![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](#)
-[![Scikit-learn](https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
-[![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/scikit-learn.svg" width="48" height="48" alt="Scikit-learn" /></a>
+      <br>Scikit-learn
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/dark/pandas-icon.svg"><img src="./img/pandas-icon.svg" width="48" height="48" alt="Pandas" /></picture></a>
+      <br>Pandas
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/jupyter.svg" width="48" height="48" alt="Jupyter" /></a>
+      <br>Jupyter
+    </td>
+  </tr>
+</table>
 
 ### Web Scraping & Automation
 
-[![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff)](#)
-[![Playwright](https://custom-icon-badges.demolab.com/badge/Playwright-2EAD33?logo=playwright&logoColor=fff)](#)
-[![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-blue)](#)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/selenium.svg" width="48" height="48" alt="Selenium" /></a>
+      <br>Selenium
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/playwright.svg" width="48" height="48" alt="Playwright" /></a>
+      <br>Playwright
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/beautifulsoup.svg" width="48" height="48" alt="Beautiful Soup" /></a>
+      <br>Beautiful Soup
+    </td>
+  </tr>
+</table>
 
 ### Others
 
-[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
-[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#)
-[![Haskell](https://img.shields.io/badge/Haskell-5e5086?logo=haskell&logoColor=white)](#)
-[![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/git-icon.svg" width="48" height="48" alt="Git" /></a>
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/dark/github-icon.svg"><img src="./img/github-icon.svg" width="48" height="48" alt="GitHub" /></picture></a>
+      <br>GitHub
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/dark/aws.svg"><img src="./img/aws.svg" width="48" height="48" alt="AWS" /></picture></a>
+      <br>AWS
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/java.svg" width="48" height="48" alt="Java" /></a>
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/docker-icon.svg" width="48" height="48" alt="Docker" /></a>
+      <br>Docker
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/linux-tux.svg" width="48" height="48" alt="Linux" /></a>
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/scala.svg" width="48" height="48" alt="Scala" /></a>
+      <br>Scala
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/haskell-icon.svg" width="48" height="48" alt="Haskell" /></a>
+      <br>Haskell
+    </td>
+    <td align="center" width="96">
+      <a href="#tech-stack"><img src="./img/c.svg" width="48" height="48" alt="C" /></a>
+      <br>C
+    </td>
+  </tr>
+</table>
 
 ---
 
