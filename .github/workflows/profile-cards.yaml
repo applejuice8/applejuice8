@@ -1,0 +1,29 @@
+name: Profile Cards
+
+on:
+  schedule:
+    - cron: "20 1 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/profile-cards.yaml]
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    name: render-profile-cards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # seijikohara/profile-cards-action (MIT)
+      - name: Render profile cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          cards: overview,contributions
+          palette: green # green | blue | purple | orange
+          themes: light,dark
+          output-dir: assets/profile-cards
+          commit: true

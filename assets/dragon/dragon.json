@@ -1,0 +1,41 @@
+{
+  "login": "applejuice8",
+  "observedOn": "2026-11-03",
+  "stage": "wyrmling",
+  "behavior": "fly",
+  "reason": "1 contribution: out flying",
+  "totalContributions": 1409,
+  "nextStage": {
+    "stage": "drake",
+    "at": 2000
+  },
+  "growth": 0.52,
+  "currentStreak": 2,
+  "longestStreak": 18,
+  "horns": "silver spire",
+  "crest": "plates",
+  "pattern": "bands",
+  "ember": 0,
+  "hoard": {
+    "stars": 2,
+    "gems": 0
+  },
+  "colors": [
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "share": 0.5294117647058824
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "share": 0.17647058823529413
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "share": 0.11764705882352941
+    }
+  ],
+  "season": "autumn"
+}

@@ -1,0 +1,39 @@
+name: WakaDash Card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *" # daily, after the other profile workflows
+
+permissions:
+  contents: write
+
+jobs:
+  card:
+    name: generate-wakadash-card
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate card
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKADASH_OUT_DIR: assets/wakadash
+        run: python scripts/wakadash/generate.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/wakadash/stats_card_dark.svg
+          if git commit -m "chore: update WakaDash card"; then
+            git pull --rebase origin main
+            git push
+          fi

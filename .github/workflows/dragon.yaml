@@ -1,0 +1,39 @@
+name: Dragon
+
+on:
+  schedule:
+    # Just after midnight UTC, so the dragon acts out the day that just ended.
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/dragon.yaml]
+
+permissions:
+  contents: write
+
+concurrency: dragon
+
+jobs:
+  dragon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: echoo19/git-dragon@main
+        with:
+          output-dir: assets/dragon # folder that receives dragon.gif, dragon.png, dragon.json
+          scale: "3" # pixel scale, 1-8 (scene is 200x100 before scaling)
+          theme: languages # languages | obsidian
+          caption: "false" # no login in the corner
+      - name: Commit the dragon if it changed
+        shell: bash
+        run: |
+          git add assets/dragon/dragon.gif assets/dragon/dragon.png assets/dragon/dragon.json
+          if git diff --cached --quiet; then
+            echo "The dragon is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "dragon: draw the day's dragon"
+          git pull --rebase --quiet origin main
+          git push --quiet
