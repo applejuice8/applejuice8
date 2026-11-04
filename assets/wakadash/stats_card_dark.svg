@@ -1,0 +1,115 @@
+
+    <svg
+        width="700"
+        height="180"
+        viewBox="0 0 700 180"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+
+        <!-- Background -->
+        <rect
+            x="1"
+            y="1"
+            width="698"
+            height="178"
+            rx="22"
+            fill="#1C1C1C"
+            stroke="#30363D"
+            stroke-width="1.2"
+        />
+
+        
+        <line
+            x1="350.0"
+            y1="28"
+            x2="350.0"
+            y2="152"
+            stroke="#30363D"
+            stroke-width="1"
+        />
+        
+
+        
+        <!-- Left Accent -->
+        <rect
+            x="28"
+            y="36"
+            width="7"
+            height="108"
+            rx="4"
+            fill="#8A9DFF"
+        />
+
+        <!-- Right Accent -->
+        <rect
+            x="378.0"
+            y="36"
+            width="7"
+            height="108"
+            rx="4"
+            fill="#92EFB4"
+        />
+        
+
+        
+        <!-- Daily Average -->
+        <text
+            x="52"
+            y="70"
+            fill="#9CA3AF"
+            font-family="Inter, Segoe UI, sans-serif"
+            font-size="17"
+            font-weight="500"
+        >
+            Daily Average
+        </text>
+
+        <text
+            x="52"
+            y="110"
+            fill="#F5F7FA"
+            font-family="Inter, Segoe UI, sans-serif"
+            font-size="26"
+            font-weight="700"
+        >
+            1 hr 13 mins
+        </text>
+
+        <!-- Best Day -->
+        <text
+            x="402.0"
+            y="70"
+            fill="#9CA3AF"
+            font-family="Inter, Segoe UI, sans-serif"
+            font-size="17"
+            font-weight="500"
+        >
+            Best Day
+        </text>
+
+        <text
+            x="402.0"
+            y="108"
+            fill="#F5F7FA"
+            font-family="Inter, Segoe UI, sans-serif"
+            font-size="24"
+            font-weight="700"
+        >
+            3 hrs 24 mins
+        </text>
+
+        <text
+            x="402.0"
+            y="132"
+            fill="#9CA3AF"
+            font-family="Inter, Segoe UI, sans-serif"
+            font-size="15"
+            font-weight="500"
+        >
+            29 Oct 2026
+        </text>
+        
+
+    </svg>
+    
