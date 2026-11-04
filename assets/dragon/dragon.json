@@ -24,17 +24,17 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "share": 0.5294117647058824
+      "share": 0.5555555555555556
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.17647058823529413
+      "share": 0.16666666666666666
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.11764705882352941
+      "share": 0.1111111111111111
     }
   ],
   "season": "autumn"
