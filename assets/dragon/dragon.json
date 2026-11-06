@@ -1,21 +1,21 @@
 {
   "login": "applejuice8",
-  "observedOn": "2026-11-04",
+  "observedOn": "2026-11-05",
   "stage": "wyrmling",
-  "behavior": "fly",
-  "reason": "1 contribution: out flying",
+  "behavior": "lounge",
+  "reason": "1 quiet day: awake, guarding the hoard",
   "totalContributions": 1410,
   "nextStage": {
     "stage": "drake",
     "at": 2000
   },
   "growth": 0.52,
-  "currentStreak": 3,
+  "currentStreak": 0,
   "longestStreak": 18,
   "horns": "silver spire",
   "crest": "plates",
   "pattern": "bands",
-  "ember": 1,
+  "ember": 0,
   "hoard": {
     "stars": 2,
     "gems": 0
