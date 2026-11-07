@@ -1,9 +1,5 @@
 # Local-only files, never pushed
 .preview/
 assets/source/
-
-# Daily git-bonsai workflow: its output is not shown in the README yet
-.github/workflows/bonsai.yaml
-
 .DS_Store
 __pycache__/

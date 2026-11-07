@@ -1,8 +1,13 @@
-## Hi there 👋
+<!-- Generated daily by .github/workflows/profile-cards.yaml (seijikohara/profile-cards-action, MIT) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/contributions.dark.svg" />
+  <img alt="Contributions: streaks and an isometric calendar of the last 12 months" src="./assets/profile-cards/contributions.light.svg" width="100%" />
+</picture>
 
-<p align="center">
-  <img src="./assets/ascii/card.svg" alt="ASCII GitHub profile card for applejuice8" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/overview.dark.svg" />
+  <img alt="Overview: contributions, pull requests, issues, repositories" src="./assets/profile-cards/overview.light.svg" width="100%" />
+</picture>
 
 ---
 
@@ -195,95 +200,10 @@ JavaScript        5 hrs 43 mins         ▒░░░░░░░░░░░░�
 
 ---
 
-## 🎮 Contribution Graphs
-
-<!-- Generated daily by .github/workflows/profile-3d.yaml -->
-<p align="center">
-  <img src="./assets/profile-3d/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
-
-<!-- Isometric graph: generated daily by colincode0/github-readme -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/colincode0/github-readme/main/output/contribs-dark.svg" />
-    <img alt="Isometric GitHub contribution chart" src="https://raw.githubusercontent.com/colincode0/github-readme/main/output/contribs-light.svg" />
-  </picture>
-</p>
-
----
-
-## 🐉 Git Dragon
-
-<!-- Generated daily by .github/workflows/dragon.yaml (git-dragon, MIT: github.com/echoo19/git-dragon) -->
-<p align="center">
-  <img src="./assets/dragon/dragon.gif" width="600" alt="My git-dragon" />
-</p>
-
----
-
-## 💻 Terminal
-
-<img src="https://github-readme-insight-terminal-asci.vercel.app/svg?user=applejuice8&theme=mac&scale=0.6" alt="Terminal contribution graph" />
-
----
-
-## 🖥️ ASCII Profile
-
-<!-- Portrait: scripts/ascii/portrait.py from assets/source/profile.jpeg (static, regenerate by hand). Heatmap: refreshed daily by .github/workflows/ascii-heatmap.yaml -->
-<p align="center">
-  <img src="./assets/ascii/portrait.svg" width="560" alt="ASCII portrait" />
-</p>
-
-<p align="center">
-  <img src="./assets/ascii/contrib-heatmap.svg" alt="GitHub contribution heatmap" />
-</p>
-
----
-
-## 📈 Profile Cards
-
-<!-- Generated daily by .github/workflows/profile-cards.yaml (seijikohara/profile-cards-action, MIT) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/overview.dark.svg" />
-  <img alt="Overview: contributions, pull requests, issues, repositories" src="./assets/profile-cards/overview.light.svg" width="100%" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/contributions.dark.svg" />
-  <img alt="Contributions: streaks and an isometric calendar of the last 12 months" src="./assets/profile-cards/contributions.light.svg" width="100%" />
-</picture>
-
----
-
-## 📊 Github Stats :
-
-<p align="center">
-  <img src="https://gitcard-studio.creativecode.com.co/api/badge?username=applejuice8&type=views&color=a78bfa" alt="Profile Views" />
-</p>
-
-![github-metrics](https://ghmetric.vercel.app/api/profile?username=applejuice8&theme=aurora&hide_streak=true&hide_repos=true&hide_trophies=true)
-
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=applejuice8&show_icons=true&theme=dracula&rank_icon=github)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=applejuice8&theme=dracula)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=applejuice8&layout=compact&theme=dracula)
-
 <p align="center">
   <img src="https://icon.mzrdev.com/trophy?username=applejuice8&theme=dark" alt="Trophies" />
 </p>
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/colinleonghongseng?theme=dark&ext=heatmap)](https://leetcode.com/u/colinleonghongseng/)
-
-<!--
-**applejuice8/applejuice8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://gitcard-studio.creativecode.com.co/api/badge?username=applejuice8&type=views&color=a78bfa" alt="Profile Views" />
+</p>
